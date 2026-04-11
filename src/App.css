@@ -1,0 +1,6 @@
+/* src/App.css */
+.app {
+  min-height: 100vh;
+  background: var(--bg);
+  transition: background var(--transition);
+}

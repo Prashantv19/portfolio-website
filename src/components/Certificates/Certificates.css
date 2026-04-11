@@ -1,0 +1,120 @@
+/* src/components/Certificates/Certificates.css */
+.certs-section { background: var(--bg2); }
+
+.reveal {
+  opacity: 0;
+  transform: translateY(28px);
+  transition: opacity 0.65s ease, transform 0.65s ease;
+}
+.reveal.visible { opacity: 1; transform: none; }
+
+.certs-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 1.75rem;
+}
+
+/* ——— CARD ——— */
+.cert-card {
+  background: var(--card);
+  border: 1px solid var(--border);
+  border-radius: 20px;
+  overflow: hidden;
+  transition: all 0.3s ease;
+}
+
+.cert-card:hover {
+  transform: translateY(-5px);
+  border-color: var(--accent2);
+  box-shadow: 0 16px 40px rgba(255, 107, 157, 0.12);
+}
+
+/* ——— IMAGE ——— */
+.cert-image-wrapper {
+  position: relative;
+  overflow: hidden;
+  aspect-ratio: 16 / 9;
+}
+
+.cert-image {
+  width: 100%; height: 100%;
+  object-fit: cover;
+  transition: transform 0.5s ease;
+}
+
+.cert-card:hover .cert-image { transform: scale(1.05); }
+
+.cert-overlay {
+  position: absolute;
+  inset: 0;
+  background: rgba(10, 10, 15, 0.75);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  opacity: 0;
+  transition: opacity 0.3s ease;
+}
+
+.cert-card:hover .cert-overlay { opacity: 1; }
+
+.cert-view-btn {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  background: var(--accent2);
+  color: #fff;
+  border: none;
+  border-radius: 50px;
+  padding: 12px 24px;
+  font-size: 0.875rem;
+  font-weight: 600;
+  text-decoration: none;
+  transition: all 0.2s ease;
+}
+
+.cert-view-btn:hover { transform: scale(1.05); }
+
+/* ——— BODY ——— */
+.cert-body { padding: 1.5rem; }
+
+.cert-icon-row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 0.75rem;
+}
+
+.cert-award-icon {
+  width: 36px; height: 36px;
+  border-radius: 10px;
+  background: rgba(255, 107, 157, 0.12);
+  color: var(--accent2);
+  display: flex; align-items: center; justify-content: center;
+}
+
+.cert-date {
+  font-family: 'DM Mono', monospace;
+  font-size: 0.75rem;
+  color: var(--muted);
+  letter-spacing: 0.1em;
+}
+
+.cert-title {
+  font-family: 'Syne', sans-serif;
+  font-size: 1.05rem;
+  font-weight: 700;
+  color: var(--text);
+  margin-bottom: 0.4rem;
+  line-height: 1.4;
+}
+
+.cert-issuer {
+  font-size: 0.85rem;
+  color: var(--accent2);
+  font-family: 'DM Mono', monospace;
+}
+
+/* ——— RESPONSIVE ——— */
+@media (max-width: 768px) {
+  .certs-grid { grid-template-columns: 1fr; }
+}
