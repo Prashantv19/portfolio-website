@@ -7,9 +7,9 @@ export const personalInfo = {
   bio1: "Motivated Computer Science student with experience in Java and MERN full-stack development. Skilled in building scalable applications and solving real-world problems using modern technologies.",
   bio2: "Passionate about backend development and continuously improving problem-solving skills through DSA, system design, and real-world projects.",
   email: "prashantv1902@gmail.com",
-  github: "https://github.com/yourusername",
-  linkedin: "https://linkedin.com/in/yourusername",
-  profileImage: "/images/profile.jpg",
+  github: "https://github.com/Prashantv19",
+  linkedin: "https://www.linkedin.com/in/engineer-prashant",
+  profileImage: "/public/images/profile.png",
   resumeLink: "/resume.pdf",
 };
 
