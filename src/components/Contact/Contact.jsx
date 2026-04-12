@@ -71,7 +71,7 @@ const Contact = () => {
                 <div className="contact-item-icon"><FiGithub size={20} /></div>
                 <div>
                   <p className="ci-label">GitHub</p>
-                  <p className="ci-value">github.com/yourusername</p>
+                  <p className="ci-value">https://github.com/Prashantv19</p>
                 </div>
               </a>
 
@@ -79,7 +79,7 @@ const Contact = () => {
                 <div className="contact-item-icon"><FiLinkedin size={20} /></div>
                 <div>
                   <p className="ci-label">LinkedIn</p>
-                  <p className="ci-value">linkedin.com/in/yourusername</p>
+                  <p className="ci-value">engineer-prashant</p>
                 </div>
               </a>
 
@@ -87,7 +87,7 @@ const Contact = () => {
                 <div className="contact-item-icon"><FiMapPin size={20} /></div>
                 <div>
                   <p className="ci-label">Location</p>
-                  <p className="ci-value">India — Open to Remote</p>
+                  <p className="ci-value">India — Open to Remote & at office</p>
                 </div>
               </div>
             </div>
