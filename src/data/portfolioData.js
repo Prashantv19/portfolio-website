@@ -9,7 +9,7 @@ export const personalInfo = {
   email: "prashantv1902@gmail.com",
   github: "https://github.com/Prashantv19",
   linkedin: "https://www.linkedin.com/in/engineer-prashant",
-  profileImage: "/public/images/profile.png",
+  profileImage: "/public/images/profile.jpg",
   resumeLink: "/resume.pdf",
 };
 
