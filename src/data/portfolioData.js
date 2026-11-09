@@ -72,6 +72,18 @@ export const projects = [
     live: "https://yournetflixclone.netlify.app",
     featured: false,
   },
+  
+  {
+    id: 4,
+    title: "Your New Project",
+    description: "Write your project description here.",
+    image: "/images/your-project.png",
+    tech: ["React", "JavaScript", "CSS"],
+    github: "https://github.com/yourusername/project",
+    live: null,
+    featured: false,
+  },
+
 ];
 
 export const certificates = [
@@ -81,7 +93,7 @@ export const certificates = [
     issuer: "Microsoft & LinkedIn",
     image: "/images/microsoft-certificate.jpg",
     date: "2024",
-    link: "#",
+    link: "https://drive.google.com/file/d/1tzy638gJgrOQnK3wEAfq9YS1bJHk_gzU/view?usp=drive_link",
   },
   {
     id: 2,
@@ -89,7 +101,7 @@ export const certificates = [
     issuer: "IBM SkillsBuild",
     image: "/images/ibm-ai-certificate.jpg",
     date: "2024",
-    link: "#",
+    link: "https://drive.google.com/file/d/1vjyhbHgMHn2iITAp49dDOA5QyaRpTcBV/view?usp=sharing",
   },
   {
     id: 3,
@@ -97,7 +109,7 @@ export const certificates = [
     issuer: "L&T EduTech",
     image: "/images/lnt-ai-certificate.jpg",
     date: "2024",
-    link: "#",
+    link: "https://drive.google.com/file/d/1gU56YbGvSxIuu3oITh6prbC_lyZWmTBb/view?usp=sharing",
   },
   {
     id: 4,
@@ -105,6 +117,6 @@ export const certificates = [
     issuer: "IBM SkillsBuild",
     image: "/images/ibm-web-certificate.jpg",
     date: "2024",
-    link: "#",
+    link: "https://drive.google.com/file/d/1oK-5yypeoEVOM6tpLDDfe4fJzW3mSvmb/view?usp=sharing",
   },
 ];
